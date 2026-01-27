@@ -467,14 +467,14 @@ const CrovellWebsite = () => {
                   <Phone className="text-[#c08552] mt-1" size={24} />
                   <div>
                     <p className="font-semibold text-[#5e3023]">Phone</p>
-                    <p className="text-[#5e3023]/70">+91 XXX XXX XXXX</p>
+                    <p className="text-[#5e3023]/70">+91 6386010462</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <MapPin className="text-[#c08552] mt-1" size={24} />
                   <div>
                     <p className="font-semibold text-[#5e3023]">Address</p>
-                    <p className="text-[#5e3023]/70">Shahjahanpur, Uttar Pradesh, India</p>
+                    <p className="text-[#5e3023]/70">Champatpur, Chaubepur, Uttar Pradesh-209203, India</p>
                   </div>
                 </div>
               </div>
