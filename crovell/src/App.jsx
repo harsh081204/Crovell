@@ -460,7 +460,7 @@ const CrovellWebsite = () => {
                   <Mail className="text-[#c08552] mt-1" size={24} />
                   <div>
                     <p className="font-semibold text-[#5e3023]">Email</p>
-                    <p className="text-[#5e3023]/70">info@crovell.com</p>
+                    <p className="text-[#5e3023]/70">mpecrovell@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
