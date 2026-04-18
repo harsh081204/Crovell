@@ -1,0 +1,21 @@
+{
+  "name": "Crovell",
+  "short_name": "Crovell",
+  "description": "Premium Sliders for Everyday Comfort",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3e9dc",
+  "theme_color": "#c08552",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

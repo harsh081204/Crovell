@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Search, User } from 'lucide-react';
+import { Menu, X, Search, User, ShoppingBag } from 'lucide-react';
 import { menuStructure } from '../data';
+import { useCart } from '../context/CartContext';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [hoveredMenu, setHoveredMenu] = useState(null);
     const [isScrolled, setIsScrolled] = useState(false);
+    const { setIsCartOpen, cartCount } = useCart();
 
     useEffect(() => {
         let timeoutId;
@@ -98,6 +100,17 @@ const Navbar = () => {
                         </button>
                         <button className="text-[#5e3023] hover:text-[#c08552] transition">
                             <User size={22} />
+                        </button>
+                        <button 
+                            onClick={() => setIsCartOpen(true)}
+                            className="text-[#5e3023] hover:text-[#c08552] transition relative p-1"
+                        >
+                            <ShoppingBag size={22} />
+                            {cartCount > 0 && (
+                                <span className="absolute -top-1 -right-1 bg-[#c08552] text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
+                                    {cartCount}
+                                </span>
+                            )}
                         </button>
                     </div>
 
